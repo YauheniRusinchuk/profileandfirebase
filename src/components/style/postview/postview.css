@@ -1,0 +1,26 @@
+.PostView__ {
+  font-family: Mina;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.postview_home {
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.postcls {
+  margin-top: 50px;
+}
+
+.PostView__ h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.PostView__ p {
+  color: black;
+  font-size: 14px;
+}

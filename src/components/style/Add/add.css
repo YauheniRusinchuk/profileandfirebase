@@ -1,0 +1,81 @@
+*{
+  font-family: Mina, Arial;
+}
+.home_add{
+  width: 90%;
+  margin: 50px auto;
+}
+
+.home_add form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home_add form .title {
+  font-family: Mina, Arial;
+  font-weight: bold;
+  width: 90%;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  box-shadow: 0 0 10px grey;
+}
+
+
+.home_add form .content {
+  width: 90%;
+	height: 300px;
+	border: 2px solid black;
+	border-radius: 5px;
+	outline: none;
+	padding: 5px;
+	font-family: Mina, Arial;
+	font-weight: bold;
+	resize: none;
+  box-shadow: 0 0 10px grey;
+}
+
+.home_btn_home {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn__ {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-family: Mina;
+  font-weight: bold;
+}
+
+.btn_submit {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn_submit_ {
+  margin-right: 25px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  font-family: Mina;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 5px;
+  box-shadow: 0 0 10px grey;
+  background-color: white;
+  transition-property: background-color, color;
+  transition-duration: 0.3s;
+}
+
+.btn_submit_:hover {
+  background-color: black;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}

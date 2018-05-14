@@ -1,0 +1,11 @@
+.settings {
+  margin-top: 200px;
+  text-align: center;
+  font-family: Mina;
+  font-size: 12px;
+}
+
+.settings_btn {
+  text-decoration: none;
+  color: black;
+}
